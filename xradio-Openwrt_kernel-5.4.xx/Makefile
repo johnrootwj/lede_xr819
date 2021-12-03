@@ -20,7 +20,7 @@ include $(INCLUDE_DIR)/package.mk
 
 define Download/xr819
   FILE:=xr819.tar.bz2
-  URL:=https://github.com/melsem/openwrt-lede_xradio-xr819_soc-audio/raw/master/firmware/
+  URL:=https://raw.githubusercontent.com/johnrootwj/lede_xr819/master/firmware/
   HASH:=add13a7045cb2dbf170d51e2be678e0af8e2c7bf29cfd0f33a3a216fc88696dc
 endef
 $(eval $(call Download,xr819))
